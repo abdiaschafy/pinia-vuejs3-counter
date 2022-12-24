@@ -15,7 +15,7 @@ export const useCounterStore = defineStore({
   },
   getters: {
     oddOrEven: (state) => {
-      return state.count % 2 === 0 ? "Pair" : "Impair";
+      return state.count % 2 === 0 ? "Pair" : "Impairs";
     },
   },
 });
